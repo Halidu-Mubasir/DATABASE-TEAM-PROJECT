@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main--nav .cols{
+    background-color: #dd15a1;
+    color: #fff;
+    padding: 1.3em 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 2.2em;
+    height: 2.2m;
+}
+
+#logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Faster One', cursive;
+    margin-top: 1.2em;
+}
+
+.primary--links ul {
+    padding-top: 1em;
+    list-style-type: none;
+    display: flex;
+}
+
+.primary--links ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-left: 3em;
+    color: #fff;
+}
+
+.primary--links ul li a:hover {
+    cursor: pointer;
+    color: #FAF208;
+    transition: 0.5s;
+}
+
+.hr {
+    border-top: 0.12em solid #800000;
+    width: 100%;
+}
+
+.main {
+    background-color: #5252eb;
+    height: 592px;
+    padding: 8.6% 10% 2%;
+    width: 100%;
+}
+
+.main h1, h2, h3 {
+    color: #fff;
+}
+
+.first {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 0.13em;
+}
+
+.__f {
+    color: #fff;
+}
+
+.__places {
+    color: #FAF208;
+}
+
+.link--up {
+    margin-top: 2em;
+}
+
+.link--up a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 2em;
+    border: 0.13em solid #FAF208;
+    border-radius: 0.3em;
+}
+
+.link--up a:hover{
+    cursor: pointer;
+    background-color: #ff000076;
+    transition: 0.5s;
+}
+
+.second {
+    margin-top: 3em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.1em;
+}
+
+.name {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    padding-top: 1.5em;
+}
+
+.second a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.second a:hover {
+    cursor: pointer;
+    color: #FAF208;
+    transition: 0.5s;
+}
+
+.help--centre {
+    align-items: center;
+    text-align: center;
+    margin-top: 1.3em;
+}
+
+.help--centre img {
+    margin-bottom: 1em;
+}
+
+.get--elec {
+    align-items: center;
+    text-align: center;
+}
+
+.service {
+    background-color: #FAF208;
+    width: 8em;
+    height: 5em;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 3em;
+    font-size: 1.7rem;
+    align-items: center;
+    border-top-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+}
+
+.service a {
+    text-decoration: none;
+    color: #333;
+}
+
+.service:hover{
+    cursor: pointer;
+    background-color: #dd15a1;
+    border: 0.1em solid #333;
+    transition: 0.5s;
+}
+
+.view {
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.content {
+    font-size: 3rem;
+    color: #333;
+}
+
+.view--btn {
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: #333;
+    border: 0.1em solid #dd15a1;
+    border-radius: 1em;
+    padding: 0.5em 3em;
+    width: 10em;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.view--btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.view--btn:hover {
+    cursor: pointer;
+    background-color: #dd15a1;
+    border: 0.1em solid #333;
+    transition: 0.5s;
+}
+
+.back--to--top {
+    margin-top: 20%;
+    margin-left: 90%;
+    background-color: #333;
+    border: 0.1em solid #dd15a1;
+    border-radius: 1em;
+    padding: 1em 1em;
+    width: 12em;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.back--to--top a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.back--to--top:hover {
+    cursor: pointer;
+    background-color: #dd15a1;
+    border: 0.1em solid #333;
+    transition: 0.5s;
+}
